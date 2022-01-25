@@ -124,6 +124,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# it will redirect a successful login to the top-level index (the homepage of our blog).
+# it will redirect a successful login to the top-level index (the homepage of our blog)
 
 LOGIN_REDIRECT_URL = '/'
